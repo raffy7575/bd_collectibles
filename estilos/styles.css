@@ -1,0 +1,332 @@
+#notextdeco {
+    text-decoration: none;
+}
+
+.loginform{
+ font-size: 20px;
+}
+
+.formbtn{
+    color: aliceblue;
+}
+
+.darkgray{
+    color:darkgray;
+}
+
+
+
+
+
+/*SECÇÃO 1 DO SITE */
+
+
+
+
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  @media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+
+
+
+
+/* SIDEBAR OFFCANVAS */
+
+
+
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+  
+  html {
+    height: -webkit-fill-available;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  .b-example-divider {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    pointer-events: none;
+    fill: currentColor;
+  }
+  
+  .dropdown-toggle { outline: 0; }
+  
+  .nav-flush .nav-link {
+    border-radius: 0;
+  }
+  
+  .btn-toggle {
+    display: inline-flex;
+    align-items: center;
+    padding: .25rem .5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .65);
+    background-color: transparent;
+    border: 0;
+  }
+  .btn-toggle:hover,
+  .btn-toggle:focus {
+    color: rgba(0, 0, 0, .85);
+    background-color: #d2f4ea;
+  }
+  
+  .btn-toggle::before {
+    width: 1.25em;
+    line-height: 0;
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+  }
+  
+  .btn-toggle[aria-expanded="true"] {
+    color: rgba(0, 0, 0, .85);
+  }
+  .btn-toggle[aria-expanded="true"]::before {
+    transform: rotate(90deg);
+  }
+  
+  .btn-toggle-nav a {
+    display: inline-flex;
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+    text-decoration: none;
+  }
+  .btn-toggle-nav a:hover,
+  .btn-toggle-nav a:focus {
+    background-color: #d2f4ea;
+  }
+  
+  .scrollarea {
+    overflow-y: auto;
+  }
+  
+  .fw-semibold { font-weight: 600; }
+  .lh-tight { line-height: 1.25; }
+
+
+
+
+  /* Eventos */
+
+  body{
+    background:#eee;
+    margin-top:20px;
+}
+.hori-timeline .events {
+    border-top: 3px solid #e9ecef;
+}
+.hori-timeline .events .event-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+}
+.hori-timeline .events .event-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #dee2e6;
+    top: 0;
+}
+.hori-timeline .events .event-list .event-date {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    right: 0;
+    width: 75px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+@media (min-width: 1140px) {
+    .hori-timeline .events .event-list {
+        display: inline-block;
+        width: 24%;
+        padding-top: 45px;
+    }
+    .hori-timeline .events .event-list .event-date {
+        top: -12px;
+    }
+}
+.bg-soft-primary {
+    background-color: rgba(64,144,203,.3)!important;
+}
+.bg-soft-success {
+    background-color: rgba(71,189,154,.3)!important;
+}
+.bg-soft-danger {
+    background-color: rgba(231,76,94,.3)!important;
+}
+.bg-soft-warning {
+    background-color: rgba(249,213,112,.3)!important;
+}
+.card {
+    border: none;
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+    box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+}
+
+
+/* Gallery */
+
+.img {
+  cursor: pointer; /* Estilo do cursor do rato */
+  height: auto; /* Altura */
+  width: 450px; /* Comprimento */
+  margin: 20px; /* Margem */
+  border-radius: 5px; /* Arredondamento da borda */
+  transition: 0.3s; /* Tempo da animação */
+}
+
+.modal {
+  display: none;
+  /* Escondido por defeito */
+  position: fixed;
+  /* Fixo no lugar */
+  z-index: 1;
+  /* Fica à frente de tudo */
+  padding-top: 100px;
+  /* Localização da caixa */
+  left: 0;
+  /* Espaçamento a partir da esquerda */
+  top: 0;
+  /* Espaçamento a partir do topo */
+  width: 80%;
+  /* Comprimento máximo */
+  height: 80%;
+  /* Altura máxima */
+  overflow: auto;
+  /* Ativa o scroll se necessário */
+  background-color: rgb(0, 0, 0);
+  /* Cor do fundo quando a imagem preenche o ecrã */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* O mesmo de cima mas acrescenta a opacidade (red, green, blue, opacidade) */
+}
+
+.modal-content {
+  margin: auto;
+  display: block; 
+  width: 80%;
+  max-width: 1000px;
+}
+
+
+.modal-content {
+  animation-name: zoom; /* Nome da animação */
+  animation-duration: 0.6s; /* Duração da animação */
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+  to {                            /* Este selector (@keyframes zoom) serve para explicar a animação,que aliado ao selector de cima, faz
+                                  com que em 0,6 segundos, a escala das imagens vá de 0 para 1. */
+    transform: scale(1)
+  }
+}
+
+/* Botão de fechar nas imagens */
+
+.close {
+  position: absolute; /* Posição absoluta, sem mexer */
+  top: 15px; /* Espaçamento a partir do topo */
+  right: 35px; /* Espaçamento a partir da direita */
+  color: #f1f1f1; /* Cor */
+  font-size: 60px; /* Tamanho da fonte */
+  font-weight: bold; /* Estilo da fonte (negrito) */
+  transition: 0.3s; /* Tempo da animação */
+}
+
+/* Animação do botão de fechar as imagens */
+
+.close:hover,
+.close:focus {
+  color: #bbb; /* Cor */
+  text-decoration: none;
+  cursor: pointer; /* Estilo do cursor do rato */
+}
+
+/* Seletor que especifica o tamanho das imagens em ecrãs cujo o comprimento seja inferior a 700px */
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 50%;
+  }
+}
+
+
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+.logo {
+  width: 30%;
+}
+
+.card {
+  border: none
+}
+
+.user-content p {
+  margin-top: 5px;
+  font-size: 12px
+}
+
+.ratings i {
+  color: blue
+}
+
+
